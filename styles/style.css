@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/* header section */
+/* This is CSs style of header */
 header {
     background-color: #000000;
     padding: 20px;
@@ -15,6 +15,7 @@ header h1 {
     font-size: 50px;
 }
 
+/* This is CSS style of navbar */
 nav ul {
     list-style: none;
     margin-top: 10px;
@@ -38,6 +39,8 @@ nav a {
     text-decoration: none;
 }
 
+/* This is CSS style of banner */
+
 .banner {
     background-color: #f351741a;
     display: flex;
@@ -53,6 +56,7 @@ nav a {
 
 }
 
+/* This is CSS style of heading */
 .heading {
     font-size: 50px;
     font-weight: bold;
@@ -64,19 +68,48 @@ nav a {
     margin-bottom: 10px;
 }
 
-.btn1 {
+/* This is CSS style of button */
+
+.btn {
     padding: 10px 20px;
     background-color: #E55473;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section 4 start*/
+s
+.bg-heading {
+    margin-left: 10px;
 }
 
 
+.section4 {
+    display: flex;
+    background-color: #f351741a;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
 
+}
 
+.section4h2 {
+    margin-bottom: 10px;
+}
 
+/* This is CSS style of footer  */
 footer {
     background-color: #000000;
     padding: 10px;
@@ -85,9 +118,16 @@ footer {
     color: white;
     font-weight: 0px;
 }
-.footer-h3{
+
+.footer-h3 {
     margin-bottom: 8px;
 }
-.footer-div{
+
+.footer-div {
     padding: 10px;
+}
+
+.featured-photos {
+    display: flex;
+
 }
