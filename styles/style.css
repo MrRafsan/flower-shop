@@ -103,6 +103,7 @@ nav a {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin-top: 5px;
 
 }
 
@@ -114,6 +115,10 @@ nav a {
 }
 
 /* section 5 */
+.section5{
+    background-color: #fff;
+    background-size: 300px;
+}
 .section5-heading{
     margin-bottom: 20px;
   
@@ -133,7 +138,7 @@ nav a {
 .section5-png {
     display: flex;
     justify-content: space-around;
-    margin: 0px 230px 230px 230px;
+    margin: 0px 230px 100px 230px;
     
 }
 
