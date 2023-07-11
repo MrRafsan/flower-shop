@@ -39,6 +39,7 @@ nav a {
     text-decoration: none;
 }
 
+/* Section 1 Start */
 /* This is CSS style of banner */
 
 .banner {
@@ -63,9 +64,10 @@ nav a {
     padding: 0%;
 }
 
-.paragraph {
+.section1-paragraph {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #3f3a3a99;
 }
 
 /* This is CSS style of button */
@@ -89,7 +91,6 @@ nav a {
 }
 
 /* Section 4 start*/
-s
 .bg-heading {
     margin-left: 10px;
 }
@@ -101,12 +102,32 @@ s
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 5px;
 
 }
 
-.section4h2 {
-    margin-bottom: 10px;
+.section4-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3f3a3a99;
+}
+
+/* section 5 */
+.section5-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section5-paragraph {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #3f3a3a99;
+}
+
+.section5-png {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
 }
 
 /* This is CSS style of footer  */
