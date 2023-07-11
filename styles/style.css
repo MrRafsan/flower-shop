@@ -98,6 +98,7 @@ nav a {
 
 .section4 {
     display: flex;
+    flex-direction: row-reverse;
     background-color: #f351741a;
     justify-content: space-around;
     align-items: center;
@@ -109,25 +110,31 @@ nav a {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #3f3a3a99;
+    font-size: 20px;
 }
 
 /* section 5 */
+.section5-heading{
+    margin-bottom: 20px;
+  
+}
 .section5-heading {
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .section5-paragraph {
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: #3f3a3a99;
 }
 
 .section5-png {
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0px 230px 230px 230px;
+    
 }
 
 /* This is CSS style of footer  */
