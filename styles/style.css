@@ -115,14 +115,16 @@ nav a {
 }
 
 /* section 5 */
-.section5{
+.section5 {
     background-color: #fff;
     background-size: 300px;
 }
-.section5-heading{
+
+.section5-heading {
     margin-bottom: 20px;
-  
+
 }
+
 .section5-heading {
     text-align: center;
     margin-top: 100px;
@@ -138,8 +140,35 @@ nav a {
 .section5-png {
     display: flex;
     justify-content: space-around;
-    margin: 0px 230px 100px 230px;
-    
+    margin: 50px 70px 100px 70px;
+
+}
+
+/* Section 6 */
+.section6 {
+    background-image: url(/asset/Rectangle\ 9.png);
+    height: 449px;
+    width: 1440px;
+    margin: 100px;
+}
+
+.section6-paragraph,
+.section6-heading {
+    text-align: center;
+}
+
+.section6-paragraph {
+    color: #3f3a3a99;
+    margin-top: 10px;
+}
+
+.section6-btn6 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 /* This is CSS style of footer  */
