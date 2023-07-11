@@ -269,6 +269,7 @@ nav a {
 
 .section6-paragraph {
     text-align: center;
+    margin-top: 50px;
 }
 
 .section6-input-email{
@@ -277,7 +278,11 @@ nav a {
     height: 14px;
     border-radius: 5px;
     width: 350px;
+    margin-top: 200px;
     
+}
+.container h2{
+    margin-top: 200px;
 }
 
 
